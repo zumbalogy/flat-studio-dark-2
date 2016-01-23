@@ -1,10 +1,13 @@
+TODO: better look for nemo side panel (no trianlgle icons maybe). maybe no icons anywhere.
+  
+
 Author: Rafa Cobreros rafacobreros@gmail.com
 License: GPL
 Original theme in: http://gnome-look.org/content/show.php/FlatStudio?content=154296
 
 1.- Change selection color
 2.- Change style of window titlebar buttons (Metacity and unity)
-3.- Select style for nautilus 
+3.- Select style for nautilus
 
 NOTE:
 	- Changes may require open/close session to take effect
@@ -61,4 +64,3 @@ or
 @import url("gnome-applications-light.css");
 or
 @import url("gnome-applications-gray-light.css");
-
