@@ -12,7 +12,7 @@
 <!-- ::: CONSTANTS ::: -->
 
 <constant name="C_titlebar_focused" value="#666666"/> <!--  gtk:bg[SELECTED]  -->
-<constant name="C_titlebar_unfocused" value="#666666  "/>
+<constant name="C_titlebar_unfocused" value="#666666"/>
 
 <constant name="C_title_focused" value="#FFFFFF"/>
 <constant name="C_title_unfocused" value="#DDDDDD"/>
