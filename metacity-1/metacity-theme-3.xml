@@ -89,11 +89,11 @@
 <!-- ::: WINDOW BACKGROUND ::: -->
 
 <draw_ops name="entire_background_focused">
-	<rectangle color="C_titlebar_focused" x="0" y="0" width="width" height="height" filled="true" />
+	<rectangle color="C_titlebar_focused" x="0" y="0" width="0" height="0" filled="true" />
 </draw_ops>
 
 <draw_ops name="entire_background_unfocused">
-	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="width" height="height" filled="true" />
+	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="0" height="0" filled="true" />
 </draw_ops>
 
 <!-- ::: BORDERS ::: -->
@@ -110,39 +110,39 @@
 <draw_ops name="border_tiled_left_focused">
 	<line
 		x1="0" y1="0"
-		x2="0" y2="height"
+		x2="0" y2="0"
 		color="C_titlebar_focused" />
 </draw_ops>
 
 <draw_ops name="border_tiled_left_unfocused">
 	<line
 		x1="0" y1="0"
-		x2="0" y2="height"
+		x2="0" y2="0"
 		color="C_titlebar_unfocused" />
 </draw_ops>
 
 <draw_ops name="border_tiled_right_focused">
 	<line
 		x1="0" y1="0"
-		x2="0" y2="height"
+		x2="0" y2="0"
 		color="C_titlebar_focused" />
 </draw_ops>
 
 <draw_ops name="border_tiled_right_unfocused">
 	<line
 		x1="0" y1="0"
-		x2="0" y2="height"
+		x2="0" y2="0"
 		color="C_titlebar_unfocused" />
 </draw_ops>
 
 <!-- ::: TITLEBAR ::: -->
 
 <draw_ops name="titlebar_fill_focused">
-	<rectangle color="C_titlebar_focused" x="0" y="0" width="width" height="height" filled="false"/>
+	<rectangle color="C_titlebar_focused" x="0" y="0" width="0" height="0" filled="false"/>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
-	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="width" height="height" filled="true"/>
+	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="0" height="0" filled="true"/>
 </draw_ops>
 
 
@@ -169,7 +169,7 @@
     <title version=">= 3.1"
         x="0"
         y="0"
-        ellipsize_width="width"
+        ellipsize_width="0"
         color="C_title_unfocused" />
 </draw_ops>
 
