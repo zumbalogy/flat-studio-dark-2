@@ -99,25 +99,25 @@
 <!-- ::: BORDERS ::: -->
 
 <draw_ops name="border_focused">
-	<rectangle color="C_titlebar_focused" x="0" y="0" width="width-1" height="height-1" filled="false" />
+	<rectangle color="C_titlebar_focused" x="0" y="0" width="0" height="0" filled="false" />
 </draw_ops>
 
 <draw_ops name="border_unfocused">
-	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="width-1" height="height-1" filled="false" />
+	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="0" height="0" filled="false" />
 </draw_ops>
 
 
 <draw_ops name="border_tiled_left_focused">
 	<line
-		x1="width-1" y1="0"
-		x2="width-1" y2="height"
+		x1="0" y1="0"
+		x2="0" y2="height"
 		color="C_titlebar_focused" />
 </draw_ops>
 
 <draw_ops name="border_tiled_left_unfocused">
 	<line
-		x1="width-1" y1="0"
-		x2="width-1" y2="height"
+		x1="0" y1="0"
+		x2="0" y2="height"
 		color="C_titlebar_unfocused" />
 </draw_ops>
 
@@ -151,24 +151,24 @@
 
 <draw_ops name="title_focused">
     <title version="< 3.1"
-        x="(0 `max` ((width - title_width) / 2))"
-        y="(0 `max` ((height - title_height) /2))"
+        x="0"
+        y="0"
         color="C_title_focused" />
     <title version=">= 3.1"
-        x="(0 `max` ((frame_x_center - title_width / 2) `min` (width - title_width)))"
-        y="(0 `max` ((height - title_height) /2))"
-        ellipsize_width="width"
+        x="0"
+        y="0"
+        ellipsize_width="0"
         color="C_title_focused" />
 </draw_ops>
 
 <draw_ops name="title_unfocused">
     <title version="< 3.1"
-        x="(0 `max` ((width - title_width) / 2))"
-        y="(0 `max` ((height - title_height) /2))"
+        x="0"
+        y="0"
         color="C_title_unfocused" />
     <title version=">= 3.1"
-        x="(0 `max` ((frame_x_center - title_width / 2) `min` (width - title_width)))"
-        y="(0 `max` ((height - title_height) /2))"
+        x="0"
+        y="0"
         ellipsize_width="width"
         color="C_title_unfocused" />
 </draw_ops>
@@ -177,26 +177,26 @@
 
 <draw_ops name="menu_focused">
 	<image filename="menu-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="menu_unfocused">
     <image filename="menu-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="menu_focused_prelight">
     <image filename="menu-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- close icon -->
@@ -204,210 +204,210 @@
 <draw_ops name="close_focused">
 	<!-- <rectangle color="#f33" x="0" y="0" width="width" height="width" filled="true"/>  -->
     <image filename="close-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="close_unfocused">
 	<!-- <rectangle color="#f66" x="0" y="0" width="width" height="width" filled="true"/> -->
 	<image filename="close-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="close_focused_prelight">
 	<!-- <rectangle color="#fff" x="0" y="0" width="width" height="width" filled="true"/> -->
 	<image filename="close-hover.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- maximize icon -->
 
 <draw_ops name="maximize_focused">
 	<image filename="maximize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="maximize_unfocused">
 	<image filename="maximize-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="maximize_focused_prelight">
 	<image filename="maximize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- restore icon -->
 
 <draw_ops name="restore_focused">
 	<image filename="restore-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="restore_unfocused">
 	<image filename="restore-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="restore_focused_prelight">
 	<image filename="restore-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- minimize icon -->
 
 <draw_ops name="minimize_focused">
 	<image filename="minimize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="minimize_unfocused">
 	<image filename="minimize-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="minimize_focused_prelight">
 	   <image filename="minimize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- shade icon -->
 
 <draw_ops name="shade_focused">
     <image filename="shade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="shade_unfocused">
     <image filename="shade-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="shade_focused_prelight">
     <image filename="shade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- unshade icon -->
 
 <draw_ops name="unshade_focused">
     <image filename="unshade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unshade_unfocused">
     <image filename="unshade-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unshade_focused_prelight">
     <image filename="unshade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- stick icon -->
 
 <draw_ops name="stick_focused">
 	<image filename="stick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="stick_unfocused">
 	<image filename="stick-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="stick_focused_prelight">
 	<image filename="stick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- unstick icon -->
 
 <draw_ops name="unstick_focused">
 	<image filename="unstick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unstick_unfocused">
 	<image filename="unstick-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unstick_focused_prelight">
 	<image filename="unstick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="blank">

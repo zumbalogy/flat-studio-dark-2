@@ -77,11 +77,11 @@
 
 <!-- ::: BORDER OUTLINE ::: -->
 <draw_ops name="border">
-	<rectangle color="C_titlebar_focused" x="0" y="0" width="width-1" height="height-1" filled="false" />
+	<rectangle color="C_titlebar_focused" x="0" y="0" width="0" height="height-1" filled="false" />
 </draw_ops>
 
 <draw_ops name="border_unfocused">
-	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="width-1" height="height-1" filled="false" />
+	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="0" height="height-1" filled="false" />
 </draw_ops>
 
 
@@ -117,251 +117,251 @@
 
 <!-- ::: TITLES ::: -->
 <draw_ops name="title">
-	<title color="C_title_focused" x="3 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	<title color="C_title_focused" x="0"/>
 
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title color="C_title_unfocused" x="3 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	<title color="C_title_unfocused" x="0"/>
 </draw_ops>
 
 <!-- menu icon -->
 
 <draw_ops name="menu_button_normal">
 	<image filename="menu-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="menu_button_unfocused">
     <image filename="menu-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="menu_button_prelight">
     <image filename="menu-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 
 <!-- close icon -->
 
 <draw_ops name="close_button_normal">
-	<rectangle color="#f33" x="0" y="0" width="width-1" height="width-1" filled="true"/>
+	<rectangle color="#f33" x="0" y="0" width="0" height="0" filled="true"/>
     <image filename="close-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 
 </draw_ops>
 
 <draw_ops name="close_button_unfocused">
-	<rectangle color="#f66" x="0" y="0" width="width-1" height="width-1" filled="true"/>
+	<rectangle color="#f66" x="0" y="0" width="0" height="0" filled="true"/>
 	<image filename="close-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="close_button_prelight">
-	<rectangle color="#fff" x="0" y="0" width="width-1" height="width-1" filled="true"/>
+	<rectangle color="#fff" x="0" y="0" width="0" height="0" filled="true"/>
 	<image filename="close-hover.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- maximize icon -->
 
 <draw_ops name="maximize_button_normal">
 	<image filename="maximize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="maximize_button_unfocused">
 	<image filename="maximize-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="maximize_button_prelight">
 	<image filename="maximize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- restore icon -->
 
 <draw_ops name="restore_button_normal">
 	<image filename="restore-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="restore_button_unfocused">
 	<image filename="restore-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="restore_button_prelight">
 	<image filename="restore-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- minimize icon -->
 
 <draw_ops name="minimize_button_normal">
 	<image filename="minimize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="minimize_button_unfocused">
 	<image filename="minimize-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="minimize_button_prelight">
 	   <image filename="minimize-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- shade icon -->
 
 <draw_ops name="shade_button_normal">
     <image filename="shade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="shade_button_unfocused">
     <image filename="shade-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="shade_button_prelight">
     <image filename="shade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- unshade icon -->
 
 <draw_ops name="unshade_button_normal">
     <image filename="unshade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unshade_button_unfocused">
     <image filename="unshade-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unshade_button_prelight">
     <image filename="unshade-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- stick icon -->
 
 <draw_ops name="stick_button_normal">
 	<image filename="stick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="stick_button_unfocused">
 	<image filename="stick-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="stick_button_prelight">
 	<image filename="stick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <!-- unstick icon -->
 
 <draw_ops name="unstick_button_normal">
 	<image filename="unstick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unstick_button_unfocused">
 	<image filename="unstick-nofocus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="unstick_button_prelight">
 	<image filename="unstick-focus.svg"
-        x="width/4"
-        y="width/4"
-        width="width/2"
-        height="width/2"/>
+        x="0"
+        y="0"
+        width="0"
+        height="0"/>
 </draw_ops>
 
 <draw_ops name="blank">
